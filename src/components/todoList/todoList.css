@@ -1,0 +1,35 @@
+.todo-list{
+    width: 20%;  
+    margin-top: 20px;
+}
+
+.number{
+    width:20%; 
+    height:30px; 
+    border:1px solid white; 
+    margin-top:20px;
+    border-radius:20px; 
+    text-align:center; 
+    background-color:lightseagreen; 
+    padding:5px;
+}
+
+@media only screen and (max-width: 575px) {
+    .todo-list{
+        width: 90%;
+    }
+
+    .number{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .todo-list{
+        width: 70%;
+    }
+
+    .number{
+        width: 70%;
+    }
+}
